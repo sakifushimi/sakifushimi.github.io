@@ -56,5 +56,5 @@ var obj1 = document.getElementsByName("ei");
     occupation=(mbtiDetails[i].occu);
   }
   }
-  alert(name+"，你的人格属性为"+mbti+"，"+occupation+"型人格");
+  alert("你的人格属性为"+mbti+"，"+occupation+"型人格");
 }
