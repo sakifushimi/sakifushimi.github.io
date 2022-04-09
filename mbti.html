@@ -8,29 +8,39 @@
 </head>
 <body onload = "askName()">
   <h1>赛博算命简易版</h1>
-  即将获取您的人格分析报告
-  <fieldset>
-    <h2>你在学校很受欢迎吗？</h2>
-    <form>
+  <p id="p1">即将获取你的人格分析报告</p>
+  <fieldset class="quiz">
+  <fieldset class="question">
+    <h2 id="c1">你在学校很受欢迎吗？</h2>
+    <form class="choice">
   <input type="radio" name="ei" value="e">是的<br>
   <input type="radio" name="ei" value="i">不是
   </form>
-    <h2>你做运动吗？</h2>
-    <form>
+</fieldset>
+  <fieldset class="question">
+    <h2 id="c1">你做运动吗？</h2>
+    <form class="choice">
   <input type="radio" name="sn" value="s">是的<br>
   <input type="radio" name="sn" value="n">不是
   </form>
-    <h2>你数学好吗？</h2>
-    <form>
+    </fieldset>
+    <fieldset class="question">
+    <h2 id="c1">你数学好吗？</h2>
+    <form class="choice">
   <input type="radio" name="tf" value="t">是的<br>
   <input type="radio" name="tf" value="f">不是
   </form>
-    <h2>你的房间干净吗？</h2>
-    <form>
+    </fieldset>
+    <fieldset class="question">
+    <h2 id="c1">你的房间干净吗？</h2>
+    <form class="choice">
   <input type="radio" name="jp" value="j">是的<br>
   <input type="radio" name="jp" value="p">不是
   </form>
+    </fieldset>
   </fieldset>
-<button type="button" onclick="getresult()">提交</button>
+  <div class="anniu">
+<button type="button" class="button" onclick="getresult()">提交</button>
+</div>
 </body>
 </html>

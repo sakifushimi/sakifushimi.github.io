@@ -1,6 +1,6 @@
 function askName(){
-  var name = prompt("请输入您的姓名");
-  alert("您好，" + name + "，欢迎来到赛博算命简易版！不到一分钟的时间，获得属于你的人格分析报告，来试试看！");
+  var name = prompt("请输入你的姓名");
+  alert("你好，" + name + "，欢迎来到赛博算命简易版！不到一分钟的时间，获得属于你的人格分析报告，来试试看！");
 }
 function getresult(){
 var ei = null
@@ -56,5 +56,5 @@ var obj1 = document.getElementsByName("ei");
     occupation=(mbtiDetails[i].occu);
   }
   }
-  alert(name+"，您的人格属性为"+mbti+"，"+occupation+"型人格");
+  alert(name+"，你的人格属性为"+mbti+"，"+occupation+"型人格");
 }
