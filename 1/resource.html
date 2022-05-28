@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <!-- 必须的 meta 标签 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Resource Library</title>
+    <!-- Bootstrap 的 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+        <!-- JavaScript 文件是可选的。从以下两种建议中选择一个即可！ -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+<!-- 背景在这里 -->
+<style type="text/css">
+        body{
+          background-color: rgb(255, 204, 102);
+          position:relative;
+          overflow-x: hidden;
+        }
+        button{
+          position: relative;
+          z-index: 10;
+        }
+        a{
+          position: relative;
+          z-index: 10;
+          color: #dc3545;
+          text-decoration:none;
+
+        }
+        img{
+          position: relative;
+          z-index: 10;
+        }
+        .accordion{
+          position: relative;
+          z-index: 10;
+        }
+        .area_cat{
+          position: absolute;
+          width:300vw;
+          height:300vh;
+          top:-50vh;
+          left:-50vw;
+          display: flex;
+          flex-wrap: wrap;
+          transform: rotate(20deg);
+
+        }
+        .background_cat{
+          width:500px;
+          padding:81px;
+          animation: 4s Run infinite linear;
+          opacity: 0.4;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        @keyframes Run {
+          to{
+            transform: translate(100%);
+          }
+        }
+</style>
+  </head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+  <!--导航-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+<!--上栏导航-->
+<div class="container-fluid">
+  <a class="navbar-brand" href="#">
+  <img src="img/mouse.png" width="30" height="27" alt="">
+  @Fushimisaki
+</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+ <div class="collapse navbar-collapse" id="navbarNavDropdown">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="#section1">说明</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#section2">视觉</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#section3">灵感</a> </li>
+<li class="nav-item">
+<a class="nav-link" href="#section4">工具</a> </li>
+<li class="nav-item">
+<a class="nav-link" href="#section5">稀奇古怪</a> </li>
+</ul>
+</div>
+</div>
+</nav>
+<!--导航外的部分-->
+<!--说明-->
+<div class="container-fluid">
+<div id="section1" class="container-fluid" style="padding:0px 30px;padding-top:100px" >
+  <div class="card mb-3">
+  <img class="card-img-top" src="img/bg01.png" alt="Card image cap">
+  <div class="card-body">
+    <h2 class="card-title">说明</h2>
+    <p class="card-text">这里是个人整理的资源汇总站，主要是一些实用的网页，分类较为主观，
+    有一部分网页可能需要翻墙使用，还请谅解！</p>
+    <h5 class="card-text">使用指南</h5>
+    <p class="card-text">视觉：绘画/平面设计的实用性资源</p>
+    <p class="card-text">灵感：文学/音乐/审美培养</p>
+    <p class="card-text">工具：在线实用工具（类似抠图/提高清晰度）</p>
+    <p class="card-text">稀奇古怪：一些有趣的网页/软件</p>
+  </div>
+</div>
+</div>
+<hr>
+<!--视觉-->
+<div id="section2" class="container-fluid "style="padding:0px 30px;">
+<!--手风琴网页汇总-->
+<div class="row">
+    <div class="col-sm-3">
+      <img src="img/tt1.png" class="img-fluid" alt="tt1" >
+    </div>
+    <div class="col-sm-9 d-flex align-items-center" style="padding-bottom:10px;">
+      <div class="flex-grow-1">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              设计类
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+            <a href="https://www.gaoding.com/"target="_blank">在线设计-稿定设计</a>｜
+            <a href="https://www.hellofont.cn"target="_blank">字体设计-字由</a>｜
+            <a href="https://www.iconfont.cn"target="_blank">矢量图标-阿里巴巴</a>｜
+            <a href="https://www.uisdc.com/"target="_blank">设计导航-优设</a>｜
+            <a href="https://weibo.com/1757693565/Izu6CbjiC"target="_blank">设计神器汇总</a>｜
+            <a href="https://www.openpeeps.com"target="_blank">手绘插画素材</a>｜
+            <a href="http://regeld.com/desi/"target="_blank">日式插画素材</a>｜
+            <a href="http://free-line-design.com"target="_blank">线条素材</a>｜
+            <a href="https://dddfont.com"target="_blank">日式漫画风文字素材</a>｜
+            <a href="http://www.logobook.com/"target="_blank">logo参考</a>｜
+            <a href="https://iconpark.oceanengine.com/official"target="_blank">开源图标库</a>｜
+            <a href="https://stubborn.fun"target="_blank">可商用矢量人物插画</a>｜
+            <a href="https://httpster.net/2020/sep/"target="_blank">网页设计参考</a>｜
+            <a href="https://icons8.com/photos/s/creator"target="_blank">平面设计参考</a>｜
+          </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              绘画类
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <a href="https://terawell.net/index.php?lang=en" target="_blank">在线创建人体（可修改体型）</a>｜
+              <a href="https://line-of-action.com/?continueFlag=c875355178685c0b313ae265fb1efd45" target="_blank">速写网站</a>｜
+              <a href="https://anatomy360.info/anatomy-scan-reference-dump/?continueFlag=c875355178685c0b313ae265fb1efd45" target="_blank">多角度人体素材</a>｜
+              <a href="https://quickposes.com/en/gestures/timed" target="_blank">快速速写</a>｜
+              <a href="http://referenceangle.com" target="_blank">头部参考</a>｜
+              <a href="http://www.posemaniacs.com/blog/thirtysecond" target="_blank">30s速写切换</a>｜
+              <a href="https://www.bodiesinmotion.photo/?continueFlag=c875355178685c0b313ae265fb1efd45" target="_blank">连续动态参考</a>｜
+              <a href="https://armstreet.com/store/" target="_blank">中世纪服装参考</a>｜
+              <a href="https://markcordory.com" target="_blank">哥特风服饰参考</a>｜
+              <a href="https://www.myoppa.fr/https:/atomicjaneclothing.com/collections/steampunk" target="_blank">蒸汽朋克风服装参考</a>｜
+              <a href="https://www.lolitawardrobe.com" target="_blank">洛丽塔服装</a>｜
+              <a href="https://www.yumeyakata.com" target="_blank">和服</a>｜
+              <a href="https://bakemono.lib.byu.edu" target="_blank">日本妖怪图鉴</a>｜
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              配色类
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+              <a href="http://colorexplorer.com" target="_blank">色卡-colorexplorer</a>｜
+              <a href="https://color.adobe.com/zh/create/color-wheel" target="_blank">颜色对比分析</a>｜
+              <a href="https://colorhunt.co" target="_blank">配色-colorhunt</a>｜
+              <a href="https://paletton.com" target="_blank">自动生成色卡</a>｜
+              <a href="https://www.colorhexa.com" target="_blank">色彩百科</a>｜
+              <a href="https://www.colordrop.io" target="_blank">四色色卡</a>｜
+              <a href="http://zhongguose.com/#yuhong" target="_blank">国风配色-中国色</a>｜
+              <a href="https://coolors.co" target="_blank">猜你喜好的色卡</a>｜
+              <a href="http://colormind.io/bootstrap" target="_blank">配色模板</a>｜
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+  </div>
+  <hr>
+  <!--博主推荐-->
+  <div class="row" style="padding:30px 30px;">
+      <h1>*视觉相关博主推荐*</h1>
+      <p>注：每一个博主名字都是链接到该博主主页的！</p>
+<div class="col-sm-3">
+<div class="card h-100">
+  <div class="card-body">
+    <h3><a href="https://weibo.com/u/6135021919?tabtype=feed" class="card-link" style="text-decoration:none;color:black;">Proko</a></h3>
+    <p class="card-text">知名绘画博主，主要发布人体解剖课程和绘画抓型，解决最难的比例问题，为每一个画手扫盲。</p>
+<div class="row align-self-end">
+    <a href="https://www.bilibili.com/video/BV1os411M7D9?spm_id_from=333.337.search-card.all.click" class="card-link "><img src="img/p.png" class="img-thumbnail" alt="..."></a>
+    <a href="https://www.bilibili.com/video/BV1os411M7D9?spm_id_from=333.337.search-card.all.click" class="btn btn-dark" style="top:5px;">Go Learn！</a>
+</div>
+  </div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="card h-100">
+  <div class="card-body">
+    <h3><a href="https://space.bilibili.com/38053181?spm_id_from=333.337.0.0" class="card-link"style="text-decoration:none;color:black;">oooooohmygosh</a></h3>
+    <p class="card-text">B站知名设计博主，让你的设计“充满高级感”的帮手，发布了多期实用排版教程供人学习。</p>
+<div class="row align-self-end">
+    <a href="https://www.bilibili.com/video/BV1tp4y1e7ur?spm_id_from=333.337.search-card.all.click" class="card-link"><img src="img/o.png" class="img-thumbnail" alt="..."></a>
+    <a href="https://www.bilibili.com/video/BV1tp4y1e7ur?spm_id_from=333.337.search-card.all.click" class="btn btn-dark" style="top:5px;">Go Learn！</a>
+</div>
+  </div>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="card h-100">
+  <div class="card-body">
+    <h3><a href="https://space.bilibili.com/1688563568?spm_id_from=333.337.search-card.all.click" class="card-link"style="text-decoration:none;color:black;">插画家斋藤直葵</a></h3>
+    <p class="card-text">日本插画家，主要发布二次元绘画教程和绘画扫盲分享，让人用轻松的方式提升画技。</p>
+<div class="row align-self-end">
+    <a href="https://www.bilibili.com/video/BV1GZ4y1976E?spm_id_from=333.337.search-card.all.click" class="card-link"><img src="img/z.png" class="img-thumbnail" alt="..."></a>
+    <a href="https://www.bilibili.com/video/BV1GZ4y1976E?spm_id_from=333.337.search-card.all.click" class="btn btn-dark" style="top:5px;">Go Learn！</a>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="col-sm-3">
+<div class="card h-100">
+  <div class="card-body">
+    <h3><a href="https://space.bilibili.com/388040012?spm_id_from=333.337.search-card.all.click" class="card-link"style="text-decoration:none;color:black;">曼奇立德原画</a></h3>
+    <p class="card-text">权威原画机构官号，日常发布原画相关干货和教学录屏，带你进入大触的世界。</p>
+<div class="row align-self-end">
+    <a href="https://www.bilibili.com/video/BV1rg411F7Eb?spm_id_from=333.337.search-card.all.click" class="card-link"><img src="img/m.png" class="img-thumbnail" alt="..."></a>
+    <a href="https://www.bilibili.com/video/BV1rg411F7Eb?spm_id_from=333.337.search-card.all.click" class="btn btn-dark" style="top:5px;">Go Learn！</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--灵感-->
+<hr>
+<div id="section3" class="container-fluid"style="padding:0px 30px;">
+  <div class="row">
+    <div class="col-sm-3 d-flex align-items-center">
+      <img src="img/tt2.png" class="img-fluid" alt="tt1" >
+    </div>
+    <div class="col-sm-9 d-flex align-items-center">
+      <div class="flex-grow-1">
+      <div class="accordion accordion-flush" id="accordionFlushExample1">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne1">
+              审美培养
+            </button>
+          </h2>
+          <div id="flush-collapseOne1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne1" data-bs-parent="#accordionFlushExample1">
+            <div class="accordion-body">
+            <a href="https://shotdeck.com"target="_blank">剧照参考</a>｜
+            <a href="https://www.nbfox.com"target="_blank">高清世界名画</a>｜
+            <a href="https://www.jldb.bunka.go.jp/zhcn/location/"target="_blank">日本电影实景</a>｜
+            <a href="http://www.airpano.com/360photo_list.php"target="_blank">世界名胜地貌</a>｜
+            <a href="https://europeanarchitecture.tumblr.com/architects"target="_blank">欧洲建筑</a>｜
+            <a href="https://www.sony.net/united/clock/"target="_blank">世界遗产名录</a>｜
+            <a href="http://www.stahlseite.de/index.htm"target="_blank">重工业机械图片</a>｜
+            <a href="https://screenmusings.org/"target="_blank">高清电影截图</a>｜
+            <a href="https://shotdeck.com/"target="_blank">剧照参考2</a>｜
+            <a href="https://film-grab.com"target="_blank">剧照参考3</a>｜
+            <a href="https://www.cbaigui.com"target="_blank">妖怪名录-知妖</a>｜
+            <a href="https://www.yukikosuto.com"target="_blank">日本画家须藤由希子作品网</a>｜
+            <a href="https://collections.louvre.fr/en/"target="_blank">卢浮宫云观展</a>｜
+            <a href="https://ja.ukiyo-e.org/"target="_blank">浮世绘风格画检索</a>｜
+            <a href="https://www.dpm.org.cn/Home.html"target="_blank">故宫博物馆云观展</a>｜
+            <a href="https://www.e-dunhuang.com/"target="_blank">数字敦煌</a>｜
+            <a href="https://www.allhistory.com"target="_blank">各国古迹-全历史</a>｜
+            <a href="https://artuk.org"target="_blank">英国绘画艺术数字博物馆</a>｜
+            <a href="https://www.europeana.eu/en/collections"target="_blank">欧洲文化资源整合</a>｜
+            <a href="https://www.artic.edu/collection"target="_blank">芝加哥艺术学院</a>｜
+            <a href="http://www.shift.jp.org/cn/"target="_blank">世界各地创意文化在线杂志</a>｜
+            <a href="https://www.r-and-company.com/"target="_blank">小众艺术家画展</a>｜
+            <a href="http://www.numero.com.cn/"target="_blank">大都市</a>｜
+            <a href="https://www.pakutaso.com/"target="_blank">日本素材网站</a>｜
+          </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo1" aria-expanded="false" aria-controls="flush-collapseTwo1">
+              文学资源
+            </button>
+          </h2>
+          <div id="flush-collapseTwo1" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo1" data-bs-parent="#accordionFlushExample1">
+            <div class="accordion-body">
+              <a href="https://zhenti.burningvocabulary.com"target="_blank">英语真题在线</a>｜
+              <a href="http://xreformat.soulcode.cn/static/index.html"target="_blank">论文提效</a>｜
+              <a href="http://read.nlc.cn/allSearch/searchList?searchType=65&showType=1&pageNo=1"target="_blank">博士论文</a>｜
+              <a href="https://new.shuge.org"target="_blank">古籍站点</a>｜
+              <a href="http://www.liulangcat.com"target="_blank">中外文学</a>｜
+              <a href="https://www.boyunso.com/"target="_blank">模糊找书</a>｜
+              <code>强推！</code><a href="https://meiriyiwen.com/"target="_blank">随机推送小众短篇文学-每日一文</a>｜
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree1">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree1" aria-expanded="false" aria-controls="flush-collapseThree1">
+              影音资源
+            </button>
+          </h2>
+          <div id="flush-collapseThree1" class="accordion-collapse collapse" aria-labelledby="flush-headingThree1" data-bs-parent="#accordionFlushExample1">
+            <div class="accordion-body">
+              <a href="http://yhdm9.com"target="_blank">免费动漫资源-樱花动漫</a>｜
+              <a href="https://ddrk.me"target="_blank">各国免费影视剧资源-低端影视</a>｜
+              <a href="https://www.dianyinggou.com"target="_blank">影视资源搜索-电影狗</a>｜
+              <a href="https://www.ear0.com"target="_blank">音效-耳聆网</a>｜
+              <a href="https://www.tosound.com"target="_blank">音效-淘声网</a>｜
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<hr>
+<!--工具-->
+<div id="section4" class="container-fluid"style="padding:0px 30px;">
+  <div class="row">
+  <div class="col-sm-3 d-flex align-items-center">
+    <img src="img/tt3.png" class="img-fluid" alt="tt1" >
+  </div>
+  <div class="col-sm-9 d-flex align-items-center">
+    <div class="card border-secondary mb-3 flex-grow-1">
+<div class="card-header">工具</div>
+<div class="card-body text-secondary">
+<div class="d-grid gap-2 d-xxl-block">
+<a href="https://bigjpg.com" class="btn btn-outline-primary btn-sm">自动提高分辨率</a>
+<a href="https://petalica-paint.pixiv.dev/index_zh.html" class="btn btn-outline-secondary btn-sm">线稿自动上色</a>
+<a href="https://fotosketcher.com/" class="btn btn-outline-success btn-sm">照片风格化</a>
+<a href="https://www.remove.bg/zh" class="btn btn-outline-danger btn-sm">在线抠图</a>
+<a href="https://yunmaovideo.com" class="btn btn-outline-warning btn-sm">云端视频制作</a>
+<a href="https://xbeibeix.com/api/bilibili/" class="btn btn-outline-info btn-sm">B站视频下载</a>
+<a href="http://veleap.com" class="btn btn-outline-dark btn-sm">AE插件</a>
+<a href="https://ncm.worthsee.com" class="btn btn-outline-primary btn-sm">网易云音乐ncm格式转mp3</a>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+<!--稀奇古怪-->
+<hr>
+<div id="section5" class="container-fluid"style="padding:0px 30px;">
+  <div class="row">
+  <div class="col-sm-12">
+    <img src="img/tt4.png" class="img-fluid" alt="tt1" >
+  </div>
+</div>
+<div class="row" style="padding:50px 10px;">
+<div class="card text-center bg-white">
+  <div class="card-header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+</svg>随机获取一个奇怪网页
+  </div>
+  <div class="card-body">
+  <button id="random"class="btn btn-dark btn-lg">stop</button>
+    <h3 class="card-text"style="position: relative;z-index: 10;"><span id ="name"></span></h3>
+      <!-- Button trigger modal -->
+    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    点击获取网页列表
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">网站一览</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-dialog modal-dialog-scrollable">
+      酷炫网站随机生成<br/>
+      https://sharkle.com/<br />
+      狗屁不通文章生成器<br/>
+      https://api.edwiv.com/bzsy/<br />
+      用极光进行绘画<br/>
+      http://weavesilk.com/<br />
+      跟随鼠标摆动的虫子<br/>
+      http://www.staggeringbeauty.com/<br />
+      用函数公式画画<br/>
+      https://www.desmos.com/<br />
+      英文缩写查询器-能不能好好说话<br/>
+      https://lab.magiconch.com/nbnhhsh/<br />
+      根据鼠标位置生成图片-让我指出你的鼠标<br/>
+      https://pointerpointer.com/<br />
+      卡通形象生成器<br/>
+      https://toonme.com/<br />
+      点击按钮达成各种成就<br/>
+      https://clickclickclick.click/<br />
+      国际空间站对接模拟器<br/>
+      https://iss-sim.spacex.com/<br />
+      黑客模拟器<br/>
+      http://hackcode.ishoulu.com/scp/<br />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+    <!-- 背景素材-->
+    <div>
+      <div class="area_cat">
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      <div class="background_cat"><img src="img/cat.png"></div>
+      </div>
+    </div>
+  </div>
+
+<script>
+// 获取标签
+let nametxt=document.getElementById('name');
+let button=document.getElementById('random');
+//创建数组
+let uname=['https://sharkle.com/','https://api.edwiv.com/bzsy/','http://weavesilk.com/','http://www.staggeringbeauty.com/','https://www.desmos.com/','https://lab.magiconch.com/nbnhhsh/','https://pointerpointer.com/','https://toonme.com/','https://clickclickclick.click/','https://iss-sim.spacex.com/','http://hackcode.ishoulu.com/scp/']
+//随机
+function getrandom(min,max){
+  return Math.floor(Math.random()*(max-min-1)+min);
+}
+function clock(){
+  let random=uname[getrandom(0,uname.length-1)];
+  nametxt.innerHTML=random;
+};
+//刷新
+let time=self.setInterval("clock()",30);
+//按钮
+let flag=false;
+button.onclick=function(){
+  if(flag==false)
+  {
+   time=window.clearInterval(time);
+   button.innerHTML="start";
+   flag=true;
+ }else{
+   time=self.setInterval("clock()",30);
+   button.innerHTML="stop";
+   flag=false;
+ }
+}
+</script>
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+return new bootstrap.Popover(popoverTriggerEl) })
+var exampleEl = document.getElementById('example')
+var tooltip = new bootstrap.Tooltip(exampleEl, options)
+</script>
+</body>
+</html>
