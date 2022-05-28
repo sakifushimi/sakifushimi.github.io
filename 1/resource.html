@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
         <!-- JavaScript 文件是可选的。从以下两种建议中选择一个即可！ -->
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
 <!-- 背景在这里 -->
 <style type="text/css">
         body{
-          background-color: rgb(255, 204, 102);
+          background-color: #587dce;
           position:relative;
           overflow-x: hidden;
         }
@@ -32,6 +32,9 @@
           position: relative;
           z-index: 10;
         }
+        footer{
+          background-color:
+        }
         .accordion{
           position: relative;
           z-index: 10;
@@ -39,7 +42,7 @@
         .area_cat{
           position: absolute;
           width:300vw;
-          height:300vh;
+          height:400vh;
           top:-50vh;
           left:-50vw;
           display: flex;
@@ -56,9 +59,15 @@
           justify-content: center;
           align-items: center;
         }
+
         @keyframes Run {
           to{
             transform: translate(100%);
+          }
+        }
+        @media(max-width:576px){
+          .card-text1{
+            font-size: 80%;
           }
         }
 </style>
@@ -111,15 +120,16 @@
   </div>
 </div>
 </div>
+</div>
 <hr>
 <!--视觉-->
 <div id="section2" class="container-fluid "style="padding:0px 30px;">
 <!--手风琴网页汇总-->
 <div class="row">
-    <div class="col-sm-3">
+    <div class="col-5 col-md-3 d-flex align-items-center">
       <img src="img/tt1.png" class="img-fluid" alt="tt1" >
     </div>
-    <div class="col-sm-9 d-flex align-items-center" style="padding-bottom:10px;">
+    <div class="col-7 col-md-9 d-flex align-items-center" style="padding-bottom:10px;">
       <div class="flex-grow-1">
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
@@ -194,6 +204,7 @@
       </div>
 </div>
   </div>
+</div>
   <hr>
   <!--博主推荐-->
   <div class="row" style="padding:30px 30px;">
@@ -248,14 +259,15 @@
 </div>
 </div>
 </div>
+</div>
 <!--灵感-->
 <hr>
-<div id="section3" class="container-fluid"style="padding:0px 30px;">
+<div id="section3" class="container-fluid"style="padding:10px 30px;">
   <div class="row">
-    <div class="col-sm-3 d-flex align-items-center">
+    <div class="col-5 col-md-3 d-flex align-items-center">
       <img src="img/tt2.png" class="img-fluid" alt="tt1" >
     </div>
-    <div class="col-sm-9 d-flex align-items-center">
+    <div class="col-7 col-md-9 d-flex align-items-center">
       <div class="flex-grow-1">
       <div class="accordion accordion-flush" id="accordionFlushExample1">
         <div class="accordion-item">
@@ -336,10 +348,10 @@
 <!--工具-->
 <div id="section4" class="container-fluid"style="padding:0px 30px;">
   <div class="row">
-  <div class="col-sm-3 d-flex align-items-center">
+  <div class="col-5 col-md-3 d-flex align-items-center">
     <img src="img/tt3.png" class="img-fluid" alt="tt1" >
   </div>
-  <div class="col-sm-9 d-flex align-items-center">
+  <div class="col-7 col-md-9 d-flex align-items-center">
     <div class="card border-secondary mb-3 flex-grow-1">
 <div class="card-header">工具</div>
 <div class="card-body text-secondary">
@@ -375,7 +387,8 @@
   </div>
   <div class="card-body">
   <button id="random"class="btn btn-dark btn-lg">stop</button>
-    <h3 class="card-text"style="position: relative;z-index: 10;"><span id ="name"></span></h3>
+    <h5 class="card-text1"style="position: relative;z-index: 10;"><span id ="name"></span></h5>
+  <hr>
       <!-- Button trigger modal -->
     <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
     点击获取网页列表
@@ -421,9 +434,10 @@
   </div>
 </div>
 </div>
+</div>
     <!-- 背景素材-->
     <div>
-      <div class="area_cat">
+      <div class="area_cat"style="overflow-y:hidden;">
       <div class="background_cat"><img src="img/cat.png"></div>
       <div class="background_cat"><img src="img/cat.png"></div>
       <div class="background_cat"><img src="img/cat.png"></div>
@@ -473,8 +487,19 @@
       <div class="background_cat"><img src="img/cat.png"></div>
       </div>
     </div>
-  </div>
-
+    <!--<footer-->
+  <footer>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-6 d-flex justify-content-center">
+        <img src="img/toya.gif" id="toya" class="img-fluid" alt="tt1" >
+        </div>
+        <div class="col-6 d-flex align-items-center">
+  <img src="img/end.png" class="img-fluid" alt="tt1" >
+        </div>
+      </div>
+    </div>
+  </footer>
 <script>
 // 获取标签
 let nametxt=document.getElementById('name');
